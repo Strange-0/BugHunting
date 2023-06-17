@@ -3,7 +3,7 @@ The blog site is vulnerable to reflected XSS in the search parameter. This vulne
 
 ## Steps To Reproduce:
 
-1. Go to https://blog.example.com/?s=<A HREF=https://attacker.com/>XSS-BY-STRANGE</A> Or Enter the payload manually in search box.
+1. Go to https://blog.spoonflower.com/?s=```<A HREF=https://attacker.com/>XSS-BY-STRANGE</A>``` Or Enter the payload manually in search box.
 2. Payload Used :
 
 ```bash
